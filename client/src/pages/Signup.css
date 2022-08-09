@@ -1,0 +1,25 @@
+.signup__image-container {
+    background-image: url(https://images.unsplash.com/photo-1511317559916-56d5ddb62563?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container, .login__form--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image-container {
+    background-image: url(https://images.unsplash.com/photo-1609994263276-9311ca68f301?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px){
+    .signup__image--container, .login__image--container{
+        display: none;
+    }
+}
