@@ -8,7 +8,7 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET)
 const server = http.createServer(app)
 const { Server } = require("socket.io")
 const io = new Server(server, {
-    cors: 'http://localhost:3000',
+    cors: 'https://gym-depot.herokuapp.com/',
     method: ['GET', 'POST', 'PATCH', 'DELETE']
 })
 
@@ -52,7 +52,7 @@ app.post('/create-payment', async (req, res) => {
     }
 })
 
-server.listen(process.env.PORT || 8080, ()=>{
+app.listen(process.env.PORT || 8080, ()=>{
     console.log(`Server running on PORT:`, 8080)
 })
 
