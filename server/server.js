@@ -1,6 +1,7 @@
 const express = require('express')
 require('./connection')
 const cors = require('cors')
+const path = require('path')
 const app = express()
 const http = require('http')
 require('dotenv').config()
