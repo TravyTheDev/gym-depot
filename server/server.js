@@ -52,7 +52,7 @@ app.post('/create-payment', async (req, res) => {
     }
 })
 
-server.listen(process.env.PORT || 8080, ()=>{
+app.listen(process.env.PORT || 8080, ()=>{
     console.log(`Server running on PORT:`, 8080)
 })
 
