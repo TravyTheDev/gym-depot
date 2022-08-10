@@ -32,3 +32,8 @@ img.card-img-top.product-preview-img {
     display: block;
     margin: 0 auto;
 }
+
+.home-banner {
+    width: 100%;
+    object-fit: cover;
+}
