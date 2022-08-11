@@ -16,7 +16,9 @@ I really wanted something with an admin page that could manage everything and a 
 
 2: The payment needs to be in a pop-up modal. Writing your credit card information directly into the page is a little scary. I'd also would like to add Paypal functionality.
 
-3. The styling for the notifications is also not the best.
+3: The styling for the notifications is also not the best.
+
+4: There should be a function to reset passwords.
 
 ### Lessons Learned:
 Bootstrap is so easy. It makes sense why a lot of websites look the same. Until now I had always freestyled my CSS, but I may look into using bootstrap more often. Also this folder structure is a bit lazy and hard to work with. It's much better to take a few extra seconds and put everything into it's own folder rather than digging through every file every time. 
